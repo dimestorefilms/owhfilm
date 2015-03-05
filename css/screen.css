@@ -1,0 +1,307 @@
+@font-face {
+  font-family: 'jovial';
+  src:url('../fonts/Jovial-webfont.eot');
+  src:url('../fonts/Jovial-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Jovial-webfont.woff2') format('woff2'),
+    url('../fonts/Jovial-webfont.woff') format('woff'),
+    url('../fonts/Jovial.ttf') format('truetype'),
+    url('../fonts/Jovial-webfont.svg#jovial') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'jovial';
+  src:url('../fonts/JovialBld-webfont.eot');
+  src:url('../fonts/JovialBld-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/JovialBld-webfont.woff2') format('woff2'),
+    url('../fonts/JovialBld-webfont.woff') format('woff'),
+    url('../fonts/JovialBld.ttf') format('truetype'),
+    url('../fonts/JovialBld-webfont.svg#jovial') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'jovial';
+  src:url('../fonts/JovialLt-webfont.eot');
+  src:url('../fonts/JovialLt-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/JovialLt-webfont.woff2') format('woff2'),
+    url('../fonts/JovialLt-webfont.woff') format('woff'),
+    url('../fonts/JovialLt.ttf') format('truetype'),
+    url('../fonts/JovialLt-webfont.svg#jovial') format('svg');
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'credit-block';
+  src:url('../fonts/CreditBlock-webfont.eot');
+  src:url('../fonts/CreditBlock-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/CreditBlock-webfont.woff2') format('woff2'),
+    url('../fonts/CreditBlock-webfont.woff') format('woff'),
+    url('../fonts/CreditBlock.ttf') format('truetype'),
+    url('../fonts/CreditBlock-webfont.svg#credit-block') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Begin Origin of Wit and Humor styles */
+*, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html, body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  background: #111;
+  color: #eee;
+  font-family: "Helvetica Neue", "Helvetica", sans-serif;
+  font-weight: 200;
+  line-height: 1.4;
+}
+.inline-table {
+  display: table;
+}
+.inline-row {
+  display: table-row;
+}
+.inline-cell {
+  display: table-cell;
+}
+.header-wrapper,
+.main-wrapper,
+.footer-wrapper {
+  width: 100%
+}
+#header,
+.container,
+#footer {
+  margin: 0 auto;
+  max-width: 100%;
+  width: 64em;
+}
+.header-wrapper {
+  background: #111 url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTAiPgogICAgICAgICAgICA8cmVjdCB4PSIwIiB3aWR0aD0iMjUiIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGw6IzAwMCIvPgogICAgICAgICAgICA8cmVjdCB4PSIyNSIgd2lkdGg9IjIyIiBoZWlnaHQ9IjEwMCUiIHN0eWxlPSJmaWxsOiMxNTE1MTUiLz4KICAgICAgICAgICAgPHJlY3QgeD0iNDciIHdpZHRoPSIzNSIgaGVpZ2h0PSIxMDAlIiBzdHlsZT0iZmlsbDojMjQyNDI0Ii8+CiAgICAgICAgICAgIDxyZWN0IHg9IjgyIiB3aWR0aD0iMTUiIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGw6IzExMSIvPgogICAgICAgICAgICA8cmVjdCB4PSI5NyIgd2lkdGg9IjEwIiBoZWlnaHQ9IjEwMCUiIHN0eWxlPSJmaWxsOiMwMTAxMDEiLz4KICAgICAgICAgICAgPHJlY3QgeD0iMTA3IiB3aWR0aD0iMTgiIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGw6IzEwMTAxMCIvPgogICAgICAgICAgICA8cmVjdCB4PSIxMjUiIHdpZHRoPSIyMSIgaGVpZ2h0PSIxMDAlIiBzdHlsZT0iZmlsbDojMTkxOTE5Ii8+CiAgICAgICAgICAgIDxyZWN0IHg9IjE0NiIgd2lkdGg9IjgiIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGw6IzAwMCIvPgogICAgICAgICAgICA8cmVjdCB4PSIxNTQiIHdpZHRoPSIzMCIgaGVpZ2h0PSIxMDAlIiBzdHlsZT0iZmlsbDojMTUxNTE1Ii8+CiAgICAgICAgICAgIDxyZWN0IHg9IjE4NCIgd2lkdGg9IjEyIiBoZWlnaHQ9IjEwMCUiIHN0eWxlPSJmaWxsOiMyNDI0MjQiLz4KICAgICAgICAgICAgPHJlY3QgeD0iMTk2IiB3aWR0aD0iMjEiIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGw6IzExMSIvPgogICAgICAgICAgICA8cmVjdCB4PSIyMTciIHdpZHRoPSIxNyIgaGVpZ2h0PSIxMDAlIiBzdHlsZT0iZmlsbDojMDEwMTAxIi8+CiAgICAgICAgICAgIDxyZWN0IHg9IjIzNCIgd2lkdGg9IjYiIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGw6IzEwMTAxMCIvPgogICAgICAgICAgICA8cmVjdCB4PSIyNDAiIHdpZHRoPSIxMCIgaGVpZ2h0PSIxMDAlIiBzdHlsZT0iZmlsbDojMTkxOTE5Ii8+CiAgICA8L3N2Zz4=) repeat top center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.6);
+  left: 0;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+#main-navigation li {
+  display: inline-block;
+  font-family: "jovial";
+  -webkit-font-smoothing: subpixel-antialiased;
+  -moz-font-smoothing: subpixel-antialiased;
+  font-smoothing: subpixel-antialiased;
+  font-weight: 200;
+  line-height: 1;
+  vertical-align: top;
+}
+#main-navigation a {
+  color: #eee;
+  display: inline-block;
+  font-size: 1.125em;
+  padding: 1em 0.5em;
+  position: relative;
+  text-transform: uppercase;
+  text-decoration: none;
+  -webkit-transition: 0.1s ease-in-out;
+  -moz-transition: 0.1s ease-in-out;
+  transition: 0.1s ease-in-out;
+}
+#main-navigation a:hover {
+  -webkit-transition: 0.1s ease-in-out;
+  -moz-transition: 0.1s ease-in-out;
+  transition: 0.1s ease-in-out;
+}
+#main-navigation a:not(.active):hover {
+  padding: 1.25em 0.5em 0.75em;
+}
+#main-navigation li:nth-child(7n) a {
+  background: #191919;
+}
+#main-navigation li:nth-child(7n) a.active,
+#main-navigation li:nth-child(7n) a.hover {
+  background: #39ff53;
+  color: #333;
+}
+#main-navigation li:nth-child(7n-1) a {
+  background: #101010;
+}
+#main-navigation li:nth-child(7n-1) a.active,
+#main-navigation li:nth-child(7n-1) a.hover {
+  background: #ff2443;
+}
+#main-navigation li:nth-child(7n-2) a {
+  background: #010101;
+}
+#main-navigation li:nth-child(7n-2) a.active,
+#main-navigation li:nth-child(7n-2) a.hover {
+  background: #8b00ff;
+}
+#main-navigation li:nth-child(7n-3) a {
+  background: #111;
+}
+#main-navigation li:nth-child(7n-3) a.active,
+#main-navigation li:nth-child(7n-3) a.hover {
+  background: #ff642b;
+}
+#main-navigation li:nth-child(7n-4) a {
+  background: #242424;
+}
+#main-navigation li:nth-child(7n-4) a.active,
+#main-navigation li:nth-child(7n-4) a.hover {
+  background: #ff4ac8;
+}
+#main-navigation li:nth-child(7n-5) a {
+  background: #151515;
+}
+#main-navigation li:nth-child(7n-5) a.active,
+#main-navigation li:nth-child(7n-5) a.hover {
+  background: #f9ff45;
+  color: #333;
+}
+#main-navigation li:nth-child(7n-6) a {
+  background: #000;
+}
+#main-navigation li:nth-child(7n-6) a.active,
+#main-navigation li:nth-child(7n-6) a.hover {
+  background: #007dff;
+}
+#main-navigation a:not(.active)::before {
+  background: inherit;
+  bottom: 0;
+  content: " ";
+  display: block;
+  height: 0em;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  top: 100%;
+  -webkit-transition: height 0.1s ease-in-out;
+  -moz-transition: height 0.1s ease-in-out;
+  transition: height 0.1s ease-in-out;
+}
+#main-navigation a:not(.active):hover::before {
+  height: 0.25em;
+}
+.wrapper {
+
+}
+.container {
+  padding: 2em 1em;
+  position: relative;
+}
+.first-section {
+  background: #a16849 url("../images/purty_wood.png") repeat center;
+  height: 100%;
+  width: 100%;
+  padding: 0 1em;
+  text-align: center;
+}
+.first-section::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(ellipse at center, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 50%, rgba(0,0,0,0.5) 80%,rgba(0,0,0,0.8) 100%);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.first-section .container {
+  vertical-align: middle;
+  width: 100%;
+}
+.splash-logo {
+  display: inline-block;
+  margin: 0 auto;
+  max-width: 80%;
+}
+.credit-block {
+  display: block;
+  font-family: 'credit-block';
+  font-size: 3em;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  line-height: 1;
+  margin: 0 auto;
+  text-align: center;
+}
+.credit-block .subtext {
+  font-size: 0.7em;
+}
+.footer-logos a {
+  display: inline-block;
+  max-width: calc(50% - 1.5em);
+}
+.footer-logos a + a {
+  margin-left: 3em;
+}
+.footer-logos img {
+  max-height: 4.6875em;
+  max-width: 100%;
+}
+.text-align-center {
+  text-align: center;
+}
+#footer {
+  padding: 2em 1em;
+  text-align: center;
+}
+#footer p {
+  font-size: 0.75em;
+}
