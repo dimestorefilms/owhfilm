@@ -265,7 +265,8 @@ input {
   border: 0;
   width: 100%;
 }
-input[type="text"] {
+input[type="text"],
+input[type="email"] {
   line-height: 1;
 }
 input[type="submit"] {
@@ -279,6 +280,9 @@ input[type="submit"] {
   margin-top: 0.5em;
   text-transform: uppercase;
   text-shadow: 0 0.05em 0 #337b73;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 input[type="submit"]:active {
   text-shadow: none;
@@ -390,7 +394,7 @@ input[type="submit"]:active {
   }
 }
 
-@media only screen and (max-device-width : 667px) {
+@media only screen and (max-device-width : 667px),  {
   input {
     font-size: 1.5em;
   }
