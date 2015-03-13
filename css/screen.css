@@ -112,15 +112,19 @@ body {
 }
 ::-webkit-input-placeholder {
    color: #ccc;
+   text-align: center;
 }
 :-moz-placeholder { /* Firefox 18- */
    color: #ccc;
+   text-align: center;
 }
 ::-moz-placeholder {  /* Firefox 19+ */
    color: #ccc;
+   text-align: center;
 }
 :-ms-input-placeholder {
    color: #ccc;
+   text-align: center;
 }
 .group:after {
   content: "";
