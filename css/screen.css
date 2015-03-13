@@ -270,6 +270,9 @@ input[type="email"] {
   line-height: 1;
 }
 input[type="submit"] {
+  -webkit-appearance: value;
+  -moz-appearance: value;
+  appearance: value;
   background: #44a096;
   border-bottom: 0.15em solid #337b73;
   border-radius: 1px 1px 0 0;
