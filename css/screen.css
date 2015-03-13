@@ -392,9 +392,6 @@ h2 {
   h2 {
     font-size: 2em;
   }
-  p {
-    font-size: 0.875em;
-  }
   .synopsis::after {
     -moz-transform: rotate(0.25deg);
     -webkit-transform: rotate(0.25deg);
