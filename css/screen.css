@@ -253,7 +253,9 @@ h2 {
   z-index: -1;
 }
 input {
-  -webkit-appearence: none;
+  -webkit-appearance: value;
+  -moz-appearance: value;
+  appearance: value;
   border-radius: 1px;
   font-family: "Helvetica Neue", "Helvetica", sans-serif;
   font-size: 2em;
@@ -267,7 +269,6 @@ input[type="text"] {
   line-height: 1;
 }
 input[type="submit"] {
-  -webkit-appearence: none;
   background: #44a096;
   border-bottom: 0.15em solid #337b73;
   border-radius: 1px 1px 0 0;
