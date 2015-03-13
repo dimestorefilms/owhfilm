@@ -446,7 +446,7 @@ input[type="submit"]:active {
     max-width: 100%;
   }
   .synopsis {
-    margin: -1em;
+    margin: 0 -1em;
     padding: 2em 1em;
   }
   h2 {
