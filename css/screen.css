@@ -424,6 +424,7 @@ input[type="submit"]:active {
     padding: 1em;
   }
   .repeating-laughs {
+    height: 8em;
     background-size: 338px 94px;
   }
   .main-image {
@@ -439,7 +440,9 @@ input[type="submit"]:active {
     font-size: 2.5em;
   }
   .portrait {
+    float: none;
     margin-right: 0;
+    margin-bottom: 1em;
     max-width: 100%;
   }
   .synopsis {
