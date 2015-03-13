@@ -243,7 +243,7 @@ h2 {
   z-index: 1;
 }
 .newsletter-sign-up::after {
-  background: #872917;
+  background: rgba(0,0,0,0.2);
   content: " ";
   display: block;
   height: 100%;
