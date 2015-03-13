@@ -257,9 +257,9 @@ h2 {
   z-index: -1;
 }
 input {
-  -webkit-appearance: value;
-  -moz-appearance: value;
-  appearance: value;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
   border-radius: 1px;
   font-family: "Helvetica Neue", "Helvetica", sans-serif;
   font-size: 2em;
@@ -277,9 +277,9 @@ input[type="email"] {
   text-align: center;
 }
 input[type="submit"] {
-  -webkit-appearance: value;
-  -moz-appearance: value;
-  appearance: value;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
   background: #44a096;
   border-bottom: 0.15em solid #337b73;
   border-radius: 1px 1px 0 0;
