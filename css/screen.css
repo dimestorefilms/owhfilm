@@ -273,6 +273,9 @@ input[type="text"],
 input[type="email"] {
   line-height: 1;
 }
+input[type="email"] {
+  text-align: center;
+}
 input[type="submit"] {
   -webkit-appearance: value;
   -moz-appearance: value;
@@ -400,7 +403,7 @@ input[type="submit"]:active {
 
 @media only screen and (max-device-width : 667px),  {
   input {
-    font-size: 1.125em;
+    font-size: 1.5em;
   }
   .repeating-laughs {
     height: 8em;
