@@ -409,7 +409,7 @@ input[type="submit"]:active {
   text-align: center;
 }
 .laurels {
-  margin: 0 auto;
+  display: inline-block;
   width: 100%;
 }
 .laurels li {
