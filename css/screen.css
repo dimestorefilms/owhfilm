@@ -408,6 +408,21 @@ input[type="submit"]:active {
   margin-bottom: 2em;
   text-align: center;
 }
+.laurels {
+  width: 100%;
+}
+.laurels li {
+  display: inline-block;
+  padding: 1em;
+  width: calc(100% / 3);
+}
+.laurels img {
+  width: 100%;
+}
+.footer-laurels-wrapper {
+  max-width: 100%;
+  width: 34.375em;
+}
 @media only screen and (max-device-width : 768px) {
   #header,
   .container,
