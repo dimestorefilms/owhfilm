@@ -421,6 +421,7 @@ input[type="submit"]:active {
   width: 100%;
 }
 .footer-laurels-wrapper {
+  margin: 0 auto;
   max-width: 100%;
   width: 34.375em;
 }
