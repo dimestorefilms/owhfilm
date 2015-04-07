@@ -386,6 +386,28 @@ input[type="submit"]:active {
 #footer a {
   color: #fdea7a;
 }
+.backers-columns {
+  color: #fdea7a;
+  -webkit-column-count: 4;
+  -moz-column-count: 4;
+  column-count: 4;
+  font-size: 0.875em;
+}
+.styled-text {
+  font-family: jovial, serif;
+  text-transform: uppercase;
+}
+.backers-copy {
+  font-size: 1.5em;
+}
+.backers-headers img {
+  max-width: 15.625em;
+}
+.backers-headers {
+  color: #fdea7a;
+  margin-bottom: 2em;
+  text-align: center;
+}
 @media only screen and (max-device-width : 768px) {
   #header,
   .container,
