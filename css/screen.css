@@ -408,6 +408,13 @@ input[type="submit"]:active {
   margin-bottom: 2em;
   text-align: center;
 }
+@media only screen and (max-device-width : 810px) {
+  .backers-columns {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+  }
+}
 @media only screen and (max-device-width : 768px) {
   #header,
   .container,
@@ -436,6 +443,11 @@ input[type="submit"]:active {
   }
   h2 {
     text-align: center;
+  }
+  .backers-columns {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
   }
 }
 @media only screen and (max-device-width : 414px) {
