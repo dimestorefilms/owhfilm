@@ -50,7 +50,7 @@ $(document).ready(function() {
       $(this).removeClass('hover');
     }
   });
-  $('a[href$="#screenings"]').on('click', function(e) {
+  $('a[data-behavior="slide-to-screenings"]').on('click', function(e) {
     console.log('test');
     if ($('#screenings').length) {
       $('html, body').animate({
