@@ -54,7 +54,7 @@ $(document).ready(function() {
     console.log('test');
     if ($('#screenings').length) {
       $('html, body').animate({
-        scrollTop: $('#screenings').offset().top;
+        scrollTop: $('#screenings').offset().top
       }, 500);
       e.preventDefault();
     }
