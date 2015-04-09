@@ -50,10 +50,11 @@ $(document).ready(function() {
       $(this).removeClass('hover');
     }
   });
-  $('a[href~="#screenings"]').on('click', function(e) {
+  $('a[href$="#screenings"]').on('click', function(e) {
+    console.log('test');
     if ($('#screenings').length) {
       $('html, body').animate({
-        scrollTop: $("#screenings").offset().top
+        scrollTop: $('#screenings').offset().top;
       }, 500);
       e.preventDefault();
     }
