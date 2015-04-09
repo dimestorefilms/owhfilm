@@ -50,4 +50,12 @@ $(document).ready(function() {
       $(this).removeClass('hover');
     }
   });
+  $('a[href~="#screening"]').on('click', function(e) {
+    if ($('#screening').length) {
+      $('html, body').animate({
+        scrollTop: $("#screening").offset().top
+      }, 500);
+      e.preventDefault();
+    }
+  });
 });
