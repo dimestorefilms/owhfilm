@@ -522,6 +522,18 @@ a.buy-tickets span {
   h2 {
     text-align: center;
   }
+  .screenings-wrapper {
+    margin-left: 0;
+    margin-top: 0;
+  }
+  .screening-block {
+    display: block;
+    padding-left: 0;
+    padding-top: 0;
+    padding-bottom: 2em;
+    vertical-align: top;
+    width: 100%;
+  }
 }
 @media only screen and (max-device-width : 414px) {
   input {
@@ -577,5 +589,8 @@ a.buy-tickets span {
     -webkit-column-count: 2;
     -moz-column-count: 2;
     column-count: 2;
+  }
+  a.buy-tickets span {
+    font-size: 1.5em;
   }
 }
