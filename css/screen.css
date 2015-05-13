@@ -469,6 +469,7 @@ input[type="submit"]:active {
   color: #999;
   font-size: 0.875em;
 }
+.buy-tickets,
 a.buy-tickets {
   background: #44a096;
   border-bottom: 0.15em solid #337b73;
@@ -483,11 +484,45 @@ a.buy-tickets {
   text-decoration: none;
   text-transform: uppercase;
 }
+.buy-tickets span,
 a.buy-tickets span {
   font-size: 2em;
   font-weight: 200;
   text-shadow: 0 0.05em 0 #337b73;
 }
+.expired-tickets {
+  opacity: 0.5;
+}
+#trailer {
+}
+.trailer-splash {
+  box-shadow: 0.5em 0.5em 0 rgba(0,0,0,0.2);
+}
+.trailer-splash a {
+  display: block;
+}
+.trailer-splash img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.press-box {
+  padding: 2em;
+}
+.press-box p {
+  font-family: 'jovial', serif;
+  text-transform: uppercase;
+  font-size: 1.5em;
+}
+.press-box a {
+  color: #c14927;
+  font-weight: bold;
+}
+.press-box a:hover {
+  text-decoration: none;
+}
+
+
 @media only screen and (max-device-width : 768px) {
   #header,
   .container,

@@ -51,12 +51,26 @@ $(document).ready(function() {
     }
   });
   $('a[data-behavior="slide-to-screenings"]').on('click', function(e) {
-    console.log('test');
     if ($('#screenings').length) {
       $('html, body').animate({
         scrollTop: $('#screenings').offset().top
       }, 500);
       e.preventDefault();
     }
+  });
+  $('a[data-behavior="slide-to-press"]').on('click', function(e) {
+    if ($('#press').length) {
+      $('html, body').animate({
+        scrollTop: $('#press').offset().top
+      }, 500);
+      e.preventDefault();
+    }
+  });
+  $('.trailer-splash a').on('click', function(e) {
+    var video = $('<div class="vid-wrapper"><iframe width="560" height="315" src="https://www.youtube.com/embed/7a-Flujizz4?autoplay=1" frameborder="0" allowfullscreen></iframe></div>');
+    $(this).empty();
+    $(this).prepend(video);
+    $(".vid-wrapper").fitVids();
+    e.preventDefault();
   });
 });

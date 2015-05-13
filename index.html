@@ -23,10 +23,11 @@
     <header id="header">
       <nav id="main-navigation">
         <ul>
-          <li><a href="/" class="active">Home</a></li
+          <li><a href="/" class="active">Home + Trailer</a></li
           ><!-- <li><a href="/cast-and-crew">Cast &amp; Crew</a></li
           > --><li><a href="/backers">Backers</a></li
-          ><li><a href="/#screenings" data-behavior="slide-to-screenings">Screenings</a></li>
+          ><li><a href="/#screenings" data-behavior="slide-to-screenings">Screenings</a></li
+          ><li><a href="/#press" data-behavior="slide-to-press">Press</a></li>
         </ul>
       </nav>
     </header>
@@ -39,11 +40,9 @@
       <div class="group">
         <img src="images/bottle-asset.png" alt="Man trapped in tonic bottle" class="main-image">
         <div class="main-info">
-          <ul class="laurels">
-            <li><a href="http://www.hillcountryff.com" title="Hill Country Film Festival - Official Selection" target="_blank"><img src="/images/hill-country-film-festival.png" alt="Hill Country Film Festival - Official Selection"></a></li
-            ><li><a href="http://www.philadelphiaindependentfilmfestival.com" title="Philadelphia Independent Film Festival - Official Selection" target="_blank"><img src="/images/philadelphia-independent-film-festival.png" alt="Philadelphia Independent Film Festival - Official Selection"></a></li
-            ><li><a href="http://www.lacomedyfest.com" title="LA Comedy Festival - Official Selection" target="_blank"><img src="/images/la-comedy-festival.png" alt="LA Comedy Festival - Official Selection"></a></li>
-          </ul>
+          <div class="trailer-splash">
+            <a href="#"><img src="images/trailer-splash.jpg" alt="Play trailer"></a>
+          </div>
           <!-- Begin MailChimp Signup Form -->
           <form action="//dimestorefilms.us7.list-manage.com/subscribe/post?u=f0ba4388eedd17d928299ccdd&amp;id=8bba62dbde" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate sign-up-form" target="_blank" novalidate>
             <div id="mc_embed_signup_scroll">
@@ -63,7 +62,7 @@
   </div>
   <div class="wrapper" id="screenings">
     <div class="container">
-      <h2 class="text-align-center">Upcoming Screenings</h2>
+      <h2 class="text-align-center">Past Screenings</h2>
       <br>
       <div class="screenings-wrapper">
         <div class="screening-block">
@@ -83,7 +82,7 @@
             <br>
             Screening 4
             <br>
-            <a href="http://www.philadelphiaindependentfilmfestival.com/ticket/" class="buy-tickets" target="_blank"><span>Buy Tickets</span></a>
+            <div class="buy-tickets expired-tickets"><span>Expired</span></div>
           </div>
         </div
         ><div class="screening-block">
@@ -99,7 +98,7 @@
             </div>
             <br>
             Wednesday, April 29th @ 9:30PM
-            <a href="https://www.eventbrite.com/e/17th-la-comedy-festival-wednesday-april-29th-tickets-16530226352" class="buy-tickets" target="_blank"><span>Buy Tickets</span></a>
+            <div class="buy-tickets expired-tickets"><span>Expired</span></div>
           </div>
         </div
         ><div class="screening-block">
@@ -116,7 +115,7 @@
             <br>
             Saturday, May 2nd @ 12:15PM
             <br>Block 18, Theater 1
-            <a href="http://www.hillcountryff.com/festival/tickets-2/" class="buy-tickets" target="_blank"><span>Buy Tickets</span></a>
+            <div class="buy-tickets expired-tickets"><span>Expired</span></div>
           </div>
         </div>
       </div>
@@ -142,7 +141,24 @@
       </div>
     </div>
   </div>
+  <div class="wrapper" id="press">
+    <div class="container text-align-center">
+      <h2 class="text-align-center">Press</h2>
+      <div class="press-box page">
+        <p>You can download our <a href="http://bit.ly/owhfilmepk" target="_blank">Press Kit</a><br/>or check us out on <a href="http://bit.ly/OWHinfo" target="_blank">Film Freeway</a></p>
+      </div>
+    </div>
+  </div>
   <div class="wrapper">
+    <div class="container text-align-center">
+      <div class="footer-laurels-wrapper">
+        <ul class="laurels">
+          <li><a href="http://www.hillcountryff.com" target="_blank"><img src="/images/hill-country-film-festival.png" alt="Hill Country Film Festival - Best Actor"></a></li
+          ><li><a href="http://www.philadelphiaindependentfilmfestival.com" target="_blank"><img src="/images/philadelphia-independent-film-festival.png" alt="Philadelphia Independent Film Festival - Best Comedy"></a></li
+          ><li><a href="http://www.lacomedyfest.com" target="_blank"><img src="/images/la-comedy-festival.png" alt="LA Comedy Festival - Official Selection"></a></li>
+        </ul>
+      </div>
+    </div>
     <div class="container text-align-center footer-logos">
       <a href="http://shatterglassstudios.com" target="_blank" title="Shatterglass Films"><img src="images/shatterglass-logo.png" alt="Shatterglass Films"></a>
       <a href="http://dimestorefilms.com" target="_blank" title="DimeStore Films"><img src="images/dimestore-logo.png" alt="DimeStore Films"></a>
@@ -155,6 +171,7 @@
   </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
   <script>if (!window.jQuery) { document.write('<script src="/javascript/libs/jquery.min.js"><\/script>'); }</script>
+  <script src="javascript/plugins/jquery.fitvids.js"></script>
   <script src="javascript/jquery.init.js"></script>
 </body>
 </html>
