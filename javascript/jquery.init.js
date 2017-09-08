@@ -50,10 +50,10 @@ $(document).ready(function() {
       $(this).removeClass('hover');
     }
   });
-  $('a[data-behavior="slide-to-screenings"]').on('click', function(e) {
-    if ($('#screenings').length) {
+  $('a[data-behavior="slide-to-awards"]').on('click', function(e) {
+    if ($('#awards').length) {
       $('html, body').animate({
-        scrollTop: $('#screenings').offset().top
+        scrollTop: $('#awards').offset().top
       }, 500);
       e.preventDefault();
     }
