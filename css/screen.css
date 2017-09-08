@@ -614,8 +614,14 @@ a.buy-tickets span {
     height: 9em;
     background-size: 338px 94px;
   }
+  .purchase-banner {
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    display: block;
+  }
   .purchase-banner-cta {
-    font-size: 1.6125em;
+    font-size: 1.5em;
   }
   .main-image {
     margin: -9em auto 1em;
