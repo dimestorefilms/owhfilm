@@ -648,6 +648,9 @@ a.buy-tickets span {
   h2 {
     font-size: 2em;
   }
+  .page--red {
+    background: white;
+  }
   .page::after {
     -moz-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
