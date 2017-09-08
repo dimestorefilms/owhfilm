@@ -650,11 +650,6 @@ a.buy-tickets span {
     left: 0;
     margin: 0;
   }
-  .page--red {
-    -moz-transform: rotate(1.5deg);
-    -webkit-transform: rotate(1.5deg);
-    transform: rotate(1.5deg);
-  }
   .footer-logos img {
     max-height: 3em;
   }
