@@ -563,7 +563,7 @@ a.buy-tickets span {
 }
 
 
-@media only screen and (max-device-width : 768px) {
+@media (max-width : 768px) {
   #header,
   .container,
   #footer {
@@ -571,7 +571,7 @@ a.buy-tickets span {
     width: 100%;
   }
   .main-image {
-    margin-top: -9em;
+    margin-top: 0;
   }
   .main-info h1 {
     font-size: 3em;
@@ -583,7 +583,7 @@ a.buy-tickets span {
   }
 }
 
-@media only screen and (max-device-width : 667px)  {
+@media (max-width : 667px)  {
   input {
     font-size: 1.5em;
   }
@@ -610,7 +610,7 @@ a.buy-tickets span {
     width: 100%;
   }
 }
-@media only screen and (max-device-width : 414px) {
+@media (max-width : 414px) {
   input {
     font-size: 1.5em;
   }
