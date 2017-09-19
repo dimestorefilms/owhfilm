@@ -201,6 +201,13 @@ h2 {
   font-size: 0.75rem;
   font-family: "Helvetica Neue", "Helvetica", sans-serif;
 }
+.buy-badges {
+  margin-top: 1em;
+}
+.buy-badges a {
+  margin: 0.5em;
+  display: inline-block;
+}
 #main-navigation li {
   display: inline-block;
   font-family: "jovial";
